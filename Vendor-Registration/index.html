@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/12.1.2/css/intlTelInput.css">
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/12.1.2/js/intlTelInput.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js"></script>
+    <script src="cities.js"></script>
+    <title>Register your buisness</title>
+</head>
+
+<body class="body-bg">
+    <section class="multi_step_form">
+        <form id="msform">
+            <!-- Tittle -->
+            <div class="tittle">
+                <h2>Verification Process</h2>
+                <p>In order to list your business, you have to complete this verification process</p>
+            </div>
+            <!-- progressbar -->
+            <ul id="progressbar">
+                <li class="active">Step 1</li>
+                <li>Step 2</li>
+                <li>Step 3</li>
+            </ul>
+            <!-- fieldsets -->
+            <fieldset>
+                <h3>Setup your business</h3>
+                <h6>We Always deliver more than expected.</h6>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <div><select name="" id="" class="form-control">
+                                <option value="1">Select Service</option>
+                                <option value="2">Wedding</option>
+                                <option value="3">Shop Online</option>
+                                <option value="4">Real Estate</option>
+                                <option value="5">Air Tickets</option>
+                                <option value="6"> Anything on Hire</option>
+                                <option value="7">Loans</option>
+                                <option value="8"> Auto care</option>
+                                <option value="9">Automobile</option>
+                                <option value="10">Baby Care</option>
+                                <option value="11">Banquets</option>
+                                <option value="12">Bills & Recharge</option>
+                                <option value="13">Book Hotel</option>
+                                <option value="14">Pest Control</option>
+                                <option value="15">Bus</option>
+                                <option value="16">Cabs & Car rentals</option>
+                                <option value="17">Caterers</option>
+                                <option value="18">Chemists</option>
+                                <option value="19">Civil Contractors</option>
+                                <option value="20">Courier</option>
+                                <option value="21">Daily Needs</option>
+                                <option value="22">Dance & Music</option>
+                                <option value="23">Doctor</option>
+                                <option value="24"> Education</option>
+                                <option value="25">Emergency</option>
+                                <option value="26"> Event Organizer</option>
+                                <option value="27">Fitness</option>
+                                <option value="28"> Flights</option>
+                                <option value="29">Foreign Exchange</option>
+                                <option value="30">Flowers</option>
+                                <option value="31">Home Decor</option>
+                                <option value="32">Home Improvements</option>
+                                <option value="33">Hospitals</option>
+                                <option value="34">House Keeping</option>
+                                <option value="35">Industrial Products</option>
+                                <option value="36"> Insurance</option>
+                                <option value="37">Interior Designer</option>
+                                <option value="38">International SIM Card</option>
+                                <option value="39">Internet</option>
+                                <option value="40">Jewellery</option>
+                                <option value="41">Labs</option>
+                                <option value="42">Language Classes</option>
+                                <option value="43">Loan & Credit Card</option>
+                                <option value="44">Medical</option>
+                                <option value="45">Modular Kitchen</option>
+                                <option value="46">On Demand Services</option>
+                                <option value="47">Packers and Movers</option>
+                                <option value="48">Party</option>
+                                <option value="49">Personal Care</option>
+                                <option value="50">Books</option>
+                                <option value="51">Pet and Pet Care</option>
+                                <option value="52">Real Estate</option>
+                                <option value="53">Repairs</option>
+                                <option value="54">Restaurants</option>
+                                <option value="55">Security Services</option>
+                                <option value="56">Sports Coach</option>
+                                <option value="57">Sports Goods</option>
+                                <option value="58">Train</option>
+                                <option value="59">Training Institute</option>
+                                <option value="60">Transporters</option>
+                                <option value="61">Wedding</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <input type="text" id="Business-name" class="form-control" placeholder="Business Name">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <input type="text" id="Full-Name" class="form-control" placeholder="Full Name">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <input type="email" id="mail-Id" class="form-control" placeholder="Enter Email">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <input type="tel" id="phone" class="form-control" placeholder="+880">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <input type="text" class="form-control" placeholder="1123456789">
+                    </div>
+                </div>
+                <div class="done_text">
+                    <h6>Please enter OTP</h6>
+                </div>
+                <div class="code_group">
+                    <input type="text" class="form-control" placeholder="0">
+                    <input type="text" class="form-control" placeholder="0">
+                    <input type="text" class="form-control" placeholder="0">
+                    <input type="text" class="form-control" placeholder="0">
+                </div>
+                
+                <button type="button" class="next action-button">Continue</button>
+            </fieldset>
+            <fieldset>
+                
+                <div class="input-group row">
+                    <div class="form-group col-md-6">
+                        <input type="text" class="form-control" placeholder="Enter RefNo.">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <input type="text" class="form-control" placeholder="Address">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <select onchange="print_city('state', this.selectedIndex);" id="sts" name ="stt" class="form-control" required></select>
+                        
+                    </div>
+                    <div class="form-group col-md-6">
+                        <select id ="state" class="form-control" required></select>
+                    </div>
+                    <h3>Home Delivery</h3>
+                    <h6>Do you want to Home deliver your product</h6>
+                    <div class="form-group">
+                        <label class="switch">
+                            <input type="checkbox" checked>
+                            <span class="slider round"></span>
+                          </label>
+                    </div>
+                    <div class="custom-file">
+                        <h6>Upload any video Or Picture related to your business.</h6>
+                        <input type="file" class="custom-file-input" id="upload">
+                        <label class="custom-file-label" for="upload"><i class="ion-android-cloud-outline"></i>Choose
+                            file</label>
+                    </div>
+                </div>
+
+                
+                <button type="button" class="next action-button">Continue</button>
+            </fieldset>
+            <fieldset>
+                <h3>Payment Portal</h3>
+                <h6>Check out our subscription plan</h6>
+                <div class="form-group">
+                    <select class="product_select">
+                        <option data-display="1. Choose A Plan">1. Choose A Plan</option>
+                        <option>2. Choose A Plan</option>
+                        <option>3. Choose A Plan</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <select class="product_select">
+                        <option data-display="1. Choose A payment method">1. Choose A payment method</option>
+                        <option>2. Choose A payment method</option>
+                        <option>3. Choose A payment method</option>
+                    </select>
+                </div>
+                <div class="form-group fg_3">
+                    <input type="text" class="form-control" placeholder="Description">
+                </div>
+                
+                <a href="#" class="action-button">Publish</a>
+            </fieldset>
+        </form>
+    </section>
+    <script language="javascript">print_state("sts");</script>
+    <script>
+        ;(function ($) {
+            "use strict";
+
+            //* Form js
+            function verificationForm() {
+                //jQuery time
+                var current_fs, next_fs, previous_fs; //fieldsets
+                var left, opacity, scale; //fieldset properties which we will animate
+                var animating; //flag to prevent quick multi-click glitches
+
+                $(".next").click(function () {
+                    if (animating) return false;
+                    animating = true;
+
+                    current_fs = $(this).parent();
+                    next_fs = $(this).parent().next();
+
+                    //activate next step on progressbar using the index of next_fs
+                    $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
+
+                    //show the next fieldset
+                    next_fs.show();
+                    //hide the current fieldset with style
+                    current_fs.animate({
+                        opacity: 0
+                    }, {
+                        step: function (now, mx) {
+                            //as the opacity of current_fs reduces to 0 - stored in "now"
+                            //1. scale current_fs down to 80%
+                            scale = 1 - (1 - now) * 0.2;
+                            //2. bring next_fs from the right(50%)
+                            left = (now * 50) + "%";
+                            //3. increase opacity of next_fs to 1 as it moves in
+                            opacity = 1 - now;
+                            current_fs.css({
+                                'transform': 'scale(' + scale + ')',
+                                'position': 'absolute'
+                            });
+                            next_fs.css({
+                                'left': left,
+                                'opacity': opacity
+                            });
+                        },
+                        duration: 800,
+                        complete: function () {
+                            current_fs.hide();
+                            animating = false;
+                        },
+                        //this comes from the custom easing plugin
+                        easing: 'easeInOutBack'
+                    });
+                });
+
+                $(".previous").click(function () {
+                    if (animating) return false;
+                    animating = true;
+
+                    current_fs = $(this).parent();
+                    previous_fs = $(this).parent().prev();
+
+                    //de-activate current step on progressbar
+                    $("#progressbar li").eq($("fieldset").index(current_fs)).removeClass("active");
+
+                    //show the previous fieldset
+                    previous_fs.show();
+                    //hide the current fieldset with style
+                    current_fs.animate({
+                        opacity: 0
+                    }, {
+                        step: function (now, mx) {
+                            //as the opacity of current_fs reduces to 0 - stored in "now"
+                            //1. scale previous_fs from 80% to 100%
+                            scale = 0.8 + (1 - now) * 0.2;
+                            //2. take current_fs to the right(50%) - from 0%
+                            left = ((1 - now) * 50) + "%";
+                            //3. increase opacity of previous_fs to 1 as it moves in
+                            opacity = 1 - now;
+                            current_fs.css({
+                                'left': left
+                            });
+                            previous_fs.css({
+                                'transform': 'scale(' + scale + ')',
+                                'opacity': opacity
+                            });
+                        },
+                        duration: 800,
+                        complete: function () {
+                            current_fs.hide();
+                            animating = false;
+                        },
+                        //this comes from the custom easing plugin
+                        easing: 'easeInOutBack'
+                    });
+                });
+
+                $(".submit").click(function () {
+                    return false;
+                })
+            };
+
+            //* Add Phone no select
+            function phoneNoselect() {
+                if ($('#msform').length) {
+                    $("#phone").intlTelInput();
+                    $("#phone").intlTelInput("setNumber", "+91");
+                };
+            };
+            //* Select js
+            function nice_Select() {
+                if ($('.product_select').length) {
+                    $('select').niceSelect();
+                };
+            };
+            /*Function Calls*/
+            verificationForm();
+            phoneNoselect();
+            nice_Select();
+        })(jQuery); 
+    </script>
+    
+</body>
+
+</html>
